@@ -10,16 +10,16 @@ const Canvas = require('canvas')
 const jimp = require('jimp')
 const sql = require('sqlite')
 const ytdl = require("ytdl-core");
-const prefix = "/";
+const prefix = "p";
 let done = {};
 
 
 
 
 const sWlc = {}
-const premium = ['411137717884289024', '447112216123277335', '', '']
+const premium = ['411137717884289024', '447112216123277335', '472680171451973632', '']
 client.on('message', message => {
-var prefix = "/";
+var prefix = "p";
 if(message.channel.type === "dm") return;
 if(message.author.bot) return;
   if(!sWlc[message.guild.id]) sWlc[message.guild.id] = {
