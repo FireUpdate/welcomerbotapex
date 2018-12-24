@@ -10,7 +10,7 @@ const Canvas = require('canvas')
 const jimp = require('jimp')
 const sql = require('sqlite')
 const ytdl = require("ytdl-core");
-const prefix = "p";
+const prefix = "m";
 let done = {};
 
 
